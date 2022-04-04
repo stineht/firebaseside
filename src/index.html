@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase side</title>
-    <script src="/dist/bundle.js"></script>
+    <style>
+        td {
+          text-align: center;
+        }
+        </style>
 </head>
 <body>
 
-    <h1>Hello world</h1>
     
+
+<h1>Firebase side</h1>
+<br><br>
+    
+<!-- input boks for å lage et dokument med melding -->
+    <form class="add">
+        <label for="melding"> Skriv inn din melding</label>
+        <input type="text" id="melding" required>
+       
+
+        <button>Send melding</button>
+    </form>
+    <br><br>
+  
+    <h2 >Mine meldinger</h2>
+    
+    <!--   Tabell for meldingene -->
+
+ 
+ <table padding="4 px">
+        <thead>
+            <th></th>
+            <th >Melding</th>
+            <th >Klokkeslett</th>
+        </thead>
+        <tbody id="tabell" text-align="center"></tbody>
+    </table>
+   
+   
+
+
+
+
 </body>
+ <script  src="/dist/bundle.js"></script>
+
 </html>
