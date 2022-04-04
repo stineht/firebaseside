@@ -35,15 +35,10 @@ addMessageForm.addEventListener('submit', (e) =>{
     })
 
     .then(() => {
-   
         addMessageForm.reset()
    
-        
     })
 })
-
- 
-
 
  
 
